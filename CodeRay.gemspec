@@ -32,7 +32,7 @@ Usage is simple:
   # s.autorequire = 'coderay'
   s.executables = [ 'coderay', 'coderay_stylesheet' ]
 
-  s.files = nil  # defined later
+  s.files = Dir['./lib/**/*.rb'] + Dir['./demo/*.rb'] + %w( ./lib/README ./LICENSE)
 
   # Credits
   s.author = 'murphy'
