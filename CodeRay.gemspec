@@ -1,6 +1,7 @@
 Gem::Specification.new do |s|
   # Basic Information
-  s.name = s.rubyforge_project = 'coderay'
+  s.name = 'coderay'
+  s.rubyforge_project = 'coderay'
   s.version = '0.9.0'
 
   s.platform = Gem::Platform::RUBY
