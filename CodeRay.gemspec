@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   # Basic Information
   s.name = 'coderay'
   s.rubyforge_project = 'coderay'
-  s.version = '0.9.339'
+  s.version = '0.9.3391'
 
   s.platform = Gem::Platform::RUBY
   s.required_ruby_version = '>= 1.8.2'
