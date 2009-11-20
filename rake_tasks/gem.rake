@@ -66,8 +66,8 @@ namespace :gem do
       $version = CodeRay::VERSION
     end
     puts 'Current Version: %s' % $version
-    sh 'svn up --ignore-externals'
-    $version << '.' << (`svn info`[/Revision: (\d+)/,1])
+    # sh 'svn up --ignore-externals'
+    # $version << '.' << (`svn info`[/Revision: (\d+)/,1])
   end
 
   task :make_gemspec => :get_version do
